@@ -7,7 +7,7 @@ const mongoDB=require("./db");
 // mongoDB();
 
 app.use((req,res,next)=>{  //For CORS policy error
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+    res.setHeader("Access-Control-Allow-Origin", "https://foodflow-frontend.onrender.com");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"
